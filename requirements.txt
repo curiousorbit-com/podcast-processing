@@ -1,0 +1,3 @@
+boto3==1.34.112
+botocore==1.34.112
+aws-sso-lib==1.14.0
