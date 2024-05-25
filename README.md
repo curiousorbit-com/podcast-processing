@@ -38,5 +38,24 @@ Here's an example of the config.json file
 }
 ```
 
+## Why did I create this?
+Before this script, I had several prompts I was running to help streamline the processing of our weekly podcast. I created 
+a 'cheat sheet' in Google Docs with all my prompts, and every Sunday morning, I'd run through them to help me process 
+the podcast transcript.
+
+While the previous process was functional, it had its share of challenges. The constant switching between my Google Doc 
+and the AWS Bedrock playground was time-consuming and occasionally, I would get logged out of my AWS account, disrupting 
+my workflow. This was not a major issue, but it was certainly not ideal.
+
+So why did I bother with this simple Python script? Two reasons.
+
+First, I wanted to learn more about how I could interact with Amazon Bedrock programmatically. While the script is basic, 
+I learned some basics in a low-risk environment. This is always a great way to learn something new. Second, I significantly 
+improved my previous workflow. Is it perfect? No, but making incremental improvements is always good.
+
 ## Future plans
-I'm working on automating my process further by using S3 event notifications.
+I'm working on automating my process further by using S3 event notifications and Lambda so the entire process can be triggered
+by uploading the transcript to an S3 bucket.
+
+## Links
+- [Talking Cloud](https://curiousorbit.com/podcast/)
